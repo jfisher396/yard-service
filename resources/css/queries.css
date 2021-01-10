@@ -1,0 +1,204 @@
+
+/* tablets and small computers */
+@media only screen and (max-width: 1200px) {
+  .hero-text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
+
+  .row {
+    padding: 0 2%;
+  }
+}
+
+/* iPad in portrait mode */
+@media only screen and (max-width: 1023px) {
+  body {
+    font-size: 18px;
+  }
+  section {
+    padding: 60px;
+  }
+  .long-copy {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .steps-box {
+    margin-top: 10px;
+  }
+
+  .steps-box:last-child {
+    margin-top: 10px;
+  }
+  .works-step {
+    margin-bottom: 40px;
+  }
+  .works-step:last-of-type {
+    margin-bottom: 60px;
+  }
+  .works-step p {
+    font-size: 80%;
+  }
+
+  .app-screen {
+    width: 60%;
+  }
+  .btn-app-apple img,
+  .btn-app-android img {
+    display: inline-block;
+    margin-right: 5px;
+    height: 40px;
+  }
+
+  .cities-icon {
+    width: 20px;
+    margin-right: 3px;
+  }
+  .city-feature {
+    font-size: 70%;
+  }
+  .plan-box {
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .section-plans {
+    font-size: 70%;
+    padding: 40px;
+  }
+  .plan-icons {
+    font-size: 70%;
+  }
+
+  .contact-form {
+    width: 80%;
+  }
+
+  .footer-nav li,
+  .social-links li {
+    margin-right: 5px;
+  }
+}
+
+/* phones between iPad and older iPhones */
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+  section {
+    padding: 30px 0;
+  }
+  .row,
+  .hero-text-box {
+    padding: 0 4%;
+  }
+  .col {
+    width: 100%;
+    margin: 0 0 4% 0;
+  }
+
+  .mobile-nav-icon {
+    display: inline-block;
+  }
+
+  .main-nav {
+    display: none;
+    float: left;
+    margin-top: 35px;
+    margin-left: 25px;
+  }
+
+  .main-nav li {
+    display: block;
+  }
+
+  .main-nav li a:link,
+  .main-nav li a:visited {
+    display: block;
+    border: 0;
+    padding: 5px 0;
+    font-size: 100%;
+  }
+
+  .sticky .main-nav {
+    margin-top: 10px;
+  }
+  .sticky .main-nav li a:link,
+  .sticky .main-nav li a:visited {
+    padding: 10px 0;
+  }
+
+  .sticky .mobile-nav-icon {
+    margin-top: 10px;
+  }
+  .sticky .mobile-nav-icon i {
+    color: #555;
+  }
+
+  .sticky .logo {
+    display: none;
+  }
+  .sticky .logo-black {
+    display: block;
+  }
+
+  .h1 {
+    font-size: 180%;
+  }
+  .h2 {
+    font-size: 150%;
+  }
+
+  .long-copy {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .city-feature {
+    font-size: 100%;
+  }
+  .works-step div {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    padding: 4px;
+    margin-right: 15px;
+  }
+  .app-screen {
+    width: 30%;
+  }
+  .works-step p {
+    font-size: 125%;
+  }
+
+  .steps-box:first-child {
+    text-align: center;
+    padding: 0%;
+    margin-bottom: 20px;
+  }
+  .plan-box {
+    font-size: 150%;
+  }
+
+  .footer-nav,
+  .social-links {
+    float: none;
+    text-align: center;
+  }
+}
+
+/* small phones: from 0 to 480 pixels */
+@media only screen and (max-width: 480px) {
+  section {
+    padding: 25px 0;
+  }
+  .works-step p {
+    font-size: 100%;
+  }
+  .city-feature {
+    font-size: 100%;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+}

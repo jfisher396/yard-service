@@ -130,7 +130,7 @@ h3 {
 
 /* icon styles */
 
-.features-icon {
+.about-us-icon {
   font-size: 350%;
   color: var(--clr-1);
 }
@@ -298,10 +298,10 @@ input[type=submit]:active {
 }
 
 /* ------------------------------------------------------------------------- */
-/* features section styling */
+/* about-us section styling */
 /* ------------------------------------------------------------------------- */
 
-.section-features .long-copy {
+.section-about-us .long-copy {
   margin-bottom: 30px;
 }
 
@@ -431,6 +431,7 @@ input[type=submit]:active {
 
 .section-cities {
   background-color: #efebe9;
+  color: var(--clr-1);
 }
 
 .box img {

@@ -2,7 +2,7 @@ console.log("script.js is working");
 
 $(document).ready(function () {
   // sticky navbar animation
-  $(".js--section-features").waypoint(
+  $(".js--section-about-us").waypoint(
     function (direction) {
       if (direction == "down") {
         $("nav").addClass("sticky");
@@ -16,17 +16,17 @@ $(document).ready(function () {
   );
 
   //   scroll to plans section animation
-  $(".js--scroll-to-plans").click(function () {
+  $(".js--scroll-to-contact").click(function () {
     $("html, body").animate(
-      { scrollTop: $(".js--section-plans").offset().top },
+      { scrollTop: $(".js--section-contact").offset().top },
       1000
     );
   });
 
-  //   scroll to features section animation
-  $(".js--scroll-to-features").click(function () {
+  //   scroll to about-us section animation
+  $(".js--scroll-to-about-us").click(function () {
     $("html, body").animate(
-      { scrollTop: $(".js--section-features").offset().top },
+      { scrollTop: $(".js--section-about-us").offset().top },
       500
     );
   });

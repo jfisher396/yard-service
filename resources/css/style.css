@@ -9,8 +9,8 @@
 }
 
 :root {
-  --clr-1: #e67e22;
-  --clr-2: #bf6516;
+  --clr-1:#66bb6a;
+  --clr-2:#388e3c;
 }
 
 html {
@@ -19,8 +19,8 @@ html {
 
 html,
 body {
-  background-color: #fff;
-  color: #555;
+  background-color: #bcaaa4;
+  color: #fff;
   font-family: "Lato", sans-serif;
   font-weight: 400;
   font-size: 20px;
@@ -140,8 +140,8 @@ h3 {
 /* ------------------------------------------------------------------------- */
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(images/wet-grass.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(images/cabin.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -150,7 +150,7 @@ header {
 
 .hero-text-box {
   position: absolute;
-  width: 1140px;
+  width: 900px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -161,13 +161,16 @@ header {
 }
 
 .logo {
-  height: 100px;
+  color: white;
+  font-size: 150%;
+  /* height: 100px; */
   width: auto;
   float: left;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .logo-black {
+  color: black;
   display: none;
   height: 50px;
   width: auto;
@@ -179,7 +182,7 @@ header {
 .main-nav {
   float: right;
   list-style: none;
-  margin-top: 50px;
+  margin-top: 35px;
 }
 
 .main-nav li {
@@ -253,12 +256,16 @@ input[type=submit] {
   padding: 10px 30px;
   font-weight: 300;
   text-decoration: none;
-  border-radius: 200px;
+  /* border-radius: 200px; */
   transition: background-color 0.2s, border 0.2s, color 0.2s;
   -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
   -moz-transition: background-color 0.2s, border 0.2s, color 0.2s;
   -ms-transition: background-color 0.2s, border 0.2s, color 0.2s;
   -o-transition: background-color 0.2s, border 0.2s, color 0.2s;
+  /* -webkit-border-radius:;
+  -moz-border-radius:;
+  -ms-border-radius:;
+  -o-border-radius:; */
 }
 
 .btn-full:link,

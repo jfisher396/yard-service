@@ -174,7 +174,7 @@ header {
 }
 
 .logo-black {
-  color: black;
+  color: #555;
   font-family: 'Libre Baskerville', serif;
   display: none;
   height: 50px;
@@ -262,12 +262,16 @@ input[type=submit] {
   padding: 10px 30px;
   font-weight: 300;
   text-decoration: none;
-  
+  border-radius: 2px;
   transition: background-color 0.2s, border 0.2s, color 0.2s;
   -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
   -moz-transition: background-color 0.2s, border 0.2s, color 0.2s;
   -ms-transition: background-color 0.2s, border 0.2s, color 0.2s;
   -o-transition: background-color 0.2s, border 0.2s, color 0.2s;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
 }
 
 .btn-full:link,

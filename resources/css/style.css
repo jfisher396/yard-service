@@ -19,7 +19,7 @@ html {
 
 html,
 body {
-  background-color: #bcaaa4;
+  background-color: #6d4c41;
   color: #fff;
   font-family: "Lato", sans-serif;
   font-weight: 400;
@@ -256,16 +256,12 @@ input[type=submit] {
   padding: 10px 30px;
   font-weight: 300;
   text-decoration: none;
-  /* border-radius: 200px; */
+  
   transition: background-color 0.2s, border 0.2s, color 0.2s;
   -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
   -moz-transition: background-color 0.2s, border 0.2s, color 0.2s;
   -ms-transition: background-color 0.2s, border 0.2s, color 0.2s;
   -o-transition: background-color 0.2s, border 0.2s, color 0.2s;
-  /* -webkit-border-radius:;
-  -moz-border-radius:;
-  -ms-border-radius:;
-  -o-border-radius:; */
 }
 
 .btn-full:link,
@@ -433,6 +429,10 @@ input[type=submit]:active {
 /* cities section styling */
 /* ------------------------------------------------------------------------- */
 
+.section-cities {
+  background-color: #efebe9;
+}
+
 .box img {
   width: 100%;
   height: auto;
@@ -461,8 +461,9 @@ input[type=submit]:active {
 /* ------------------------------------------------------------------------- */
 
 .section-testimonials {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url(img/back-customers.jpg);
+  background-color: #6d4c41;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(images/wet-grass.jpg);
   background-size: cover;
   color: #fff;
   background-attachment: fixed;

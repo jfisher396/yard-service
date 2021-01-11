@@ -11,7 +11,8 @@
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100&display=swap"
       rel="stylesheet"
     />
-
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.compat.css" />
     
     <link rel="stylesheet" type="text/css" href="resources/css/style.css" />
@@ -33,14 +34,15 @@
     <header>
       <nav>
         <div class="row">
-          <div class="logo logo black">Lawn and Yard Services</div>
+          <div class="logo">Lawn and Yard Services</div>
+          <div class="logo-black">Lawn and Yard Services</div>
           <ul class="main-nav js--main-nav">
             <li><a href="#about-us">About us</a></li>
             <li><a href="#services">Services</a></li>
-            <li><a href="#cities">Cities</a></li>
+            <li><a href="#cities">Locations</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
-          <a class="mobile-nav-icon js--nav-icon"><i class="fas fa-hamburger"></i></a>
+          <a class="mobile-nav-icon js--nav-icon"><i class="fas fa-bars"></i></a>
             
         </div>
       </nav>
@@ -49,8 +51,8 @@
           Your local Neighborhood landscaper.
         </h1>
         <a class="btn btn-full js--scroll-to-contact" href="#">Contact Now</a>
-        <a class="btn btn-ghost js--scroll-to-about-us" href="#"
-          >Show me more</a
+        <a class="btn btn-ghost js--scroll-to-specials" href="#"
+          >See our Current Specials</a
         >
       </div>
     </header>
@@ -75,7 +77,7 @@
           ></ion-icon>
           <h3>Flexible Scheduling</h3>
           <p>
-            Never mow again! We really mean that. We are available 7-days a week, minus major holidays.
+            Never mow again! We really mean that. We are available 7-days a week, minus major holidays. On-call service available.
           </p>
         </div>
         <div class="col span-1-of-4 box">
@@ -97,7 +99,7 @@
           ></ion-icon>
           <h3>Tree Services</h3>
           <p>
-            Tree services inlude trimming, pruning, topping and shaping. Shrubs, bushes, hedges and ornamentals included. Blackberry removal.
+            Tree services include trimming, pruning, topping and shaping. Shrubs, bushes, hedges and ornamentals included. Blackberry removal.
           </p>
         </div>
         <div class="col span-1-of-4 box">
@@ -108,7 +110,7 @@
           ></ion-icon>
           <h3>Earth Friendly</h3>
           <p>
-            We only use all-natural organic fertilizers, no harsh chemicals. All yard waste is responsibly composted. Nothing goes into a landfill.
+            We use only all-natural organic fertilizers, no harsh chemicals. All yard waste is responsibly composted. Nothing goes into a landfill.
           </p>
         </div>
       </div>
@@ -460,12 +462,12 @@
     </section>
 
     <!-- contact form section -->
-    <section class="section-form" id="form">
+    <section class="section-form js--section-contact" id="form">
       <div class="row">
         <h2>We're happy to hear from you!</h2>
       </div>
 
-      <div id="contact" class="row js--section-contact">
+      <div id="contact" class="row">
         <form method="post" action="mailer-new.php" class="contact-form">
           <div class="row">
             <div class="col span-1-of-3">

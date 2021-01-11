@@ -23,10 +23,10 @@ $(document).ready(function () {
     );
   });
 
-  //   scroll to about-us section animation
-  $(".js--scroll-to-about-us").click(function () {
+  //   scroll to specials section animation
+  $(".js--scroll-to-specials").click(function () {
     $("html, body").animate(
-      { scrollTop: $(".js--section-about-us").offset().top },
+      { scrollTop: $(".js--section-specials").offset().top },
       500
     );
   });
@@ -75,11 +75,11 @@ $(document).ready(function () {
 
     nav.slideToggle(200);
 
-    if (icon.hasClass("fa-hamburger")) {
+    if (icon.hasClass("fa-bars")) {
       icon.addClass("fa-times");
-      icon.removeClass("fa-hamburger");
+      icon.removeClass("fa-bars");
     } else {
-      icon.addClass("fa-hamburger");
+      icon.addClass("fa-bars");
       icon.removeClass("fa-times");
     }
   });

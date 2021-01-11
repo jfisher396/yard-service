@@ -117,6 +117,10 @@ h3 {
 
 /* paragraph styles */
 
+p {
+  font-weight: 300;
+}
+
 .long-copy {
   line-height: 145%;
   width: 70%;
@@ -162,8 +166,8 @@ header {
 
 .logo {
   color: white;
-  font-size: 150%;
-  /* height: 100px; */
+  font-size: 170%;
+  font-family: 'Libre Baskerville', serif;
   width: auto;
   float: left;
   margin-top: 30px;
@@ -171,11 +175,12 @@ header {
 
 .logo-black {
   color: black;
+  font-family: 'Libre Baskerville', serif;
   display: none;
   height: 50px;
   width: auto;
   float: left;
-  margin: 5px;
+  margin-top: 20px;
 }
 
 /* Main navi */
@@ -230,6 +235,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
+  opacity: 0.9;
   background-color: rgba(255, 255, 255, 0.98);
   box-shadow: 0 2px 2px rgb(231, 231, 231);
   z-index: 9999;

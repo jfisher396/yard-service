@@ -500,11 +500,12 @@ blockquote:before {
 }
 
 /* ------------------------------------------------------------------------- */
-/* plans section styling */
+/* specials section styling */
 /* ------------------------------------------------------------------------- */
 
-.section-plans {
+.section-specials {
     background-color: #f4f4f4;
+    color: var(--clr-1);
 }
 
 .plan-box {
@@ -561,7 +562,7 @@ blockquote:before {
 }
 
 /* ------------------------------------------------------------------------- */
-/* plans section styling */
+/* specials section styling */
 /* ------------------------------------------------------------------------- */
 
 .contact-form {

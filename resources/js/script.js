@@ -1,4 +1,3 @@
-console.log("script.js is working");
 
 $(document).ready(function () {
   // sticky navbar animation
@@ -32,6 +31,7 @@ $(document).ready(function () {
   });
 
   //   animations on scroll
+  //  services fade-in
   $(".js--wp-1").waypoint(
     function (direction) {
       $(".js--wp-1").addClass("animated fadeIn");
@@ -41,9 +41,11 @@ $(document).ready(function () {
     }
   );
 
+
+  // specials pulse animation
   $(".js--wp-2").waypoint(
     function (direction) {
-      $(".js--wp-2").addClass("animated fadeInUp");
+      $(".js--wp-2").addClass("animated pulse");
     },
     {
       offset: "50%",
@@ -52,7 +54,7 @@ $(document).ready(function () {
 
   $(".js--wp-3").waypoint(
     function (direction) {
-      $(".js--wp-3").addClass("animated fadeIn");
+      $(".js--wp-3").addClass("animated pulse");
     },
     {
       offset: "50%",

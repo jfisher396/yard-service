@@ -198,6 +198,14 @@
     font-size: 100%;
   }
 
+  .btn-ghost_media {
+    margin-top: 10px;
+  }
+
+  .plan-box {
+    font-size: 125%;
+  }
+
   .contact-form {
     width: 100%;
   }

@@ -2,7 +2,7 @@
   
   # Lawn and Yard Services
 
-  A site for a generic landscaping firm built with HTML, CSS, JavaScript and jQuery.
+  A responsive website for a generic landscaping firm built with HTML, CSS, JavaScript and jQuery.
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -40,7 +40,11 @@
 ---
   ## Visuals:
 
-  ![]()
+  ![Screenshot 1](/screenshots\yard-service-1.png)
+  ![Screenshot 2](/screenshots\yard-service-2.png)
+  ![Screenshot 3](/screenshots\yard-service-3.png)
+  ![Screenshot 4](/screenshots\yard-service-4.png)
+  ![Screenshot 5](/screenshots\yard-service-5.png)
 
 ---
 
@@ -81,7 +85,7 @@
 ---
 
   ## Authors and Acknowledgments
-  James Fisher
+  Built by [James Fisher](https://james-fisher-web-developer.herokuapp.com/).
 
 ---
 

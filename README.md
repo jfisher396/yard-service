@@ -1,44 +1,35 @@
 
   
-  # Lawn and Yard Services
+# Lawn and Yard Services
 
-  A responsive website for a generic landscaping firm built with HTML, CSS, JavaScript and jQuery.
+A responsive website for a generic landscaping firm built using an existing framework, my focus was on design and user experience (UX).
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<p>
+    <img src="https://img.shields.io/badge/-HTML-red" />
+    <img src="https://img.shields.io/badge/-CSS-lightgrey" />
+    <img src="https://img.shields.io/badge/-UX-blue" />
+    <img src="https://img.shields.io/badge/-Web Design-blueviolet" />
+</p>
 
-  [A deployed version can be viewed here.](https://jfisher396.github.io/yard-service/)
+
+[A deployed version can be viewed here.](https://jfisher396.github.io/yard-service/)
   
 ---
-  ## Contents
+## Contents
 
-  1. [About](#about)
-      1. [User Story](#user%20story)
-      2. [Acceptance criteria](#acceptance%20criteria)
-      3. [Visuals](#visuals)
-      4. [Build](#build)
-  2. [Installation](#installation)
-  3. [License](#license)
-  4. [Contributing](#contributing)
-  5. [Tests](#tests)
-  6. [Authors and acknowledgment](#authors%20and%20acknowledgment)
+* [About](#about)
+* [Visuals](#visuals)
+* [Installation](#installation)
+* [License](#license)
+* [Contact](#contact-information)
 
 ---
-  ## About
+## About
 
   This is a personal project based on typical websites for landscaping firms.
-
----
-
-  ### User Story
-  
-
----
-
-  ### Acceptance Criteria
-  
   
 ---
-  ## Visuals:
+## Visuals:
 
   ![Screenshot 1](/screenshots/yard-service-1.png)
   ![Screenshot 2](/screenshots/yard-service-2.png)
@@ -48,48 +39,17 @@
 
 ---
 
-  ## Installation:
-  N/A
-
-  To clone the repo:
-  
-      git clone git@github.com:jfisher396/yard-service.git
-  
----
-
   ## License
-  License used for this project - MIT
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   * For more information on license types, please reference this website
   for additional licensing information - [https: //choosealicense.com/](https://choosealicense.com/).
 
 ---
 
-  ## Contributing:
-  
-  To contribute to this application, create a pull request.
-  Here are the steps needed for doing that:
-  - Fork the repo
-  - Create a feature branch (git checkout -b NAME-HERE)
-  - Commit your new feature (git commit -m 'Add some feature')
-  - Push your branch (git push)
-  - Create a new Pull Request
-
-  Following a code review, your feature will be merged.
-
-
----
-
-  ## Tests:
-  None
-
----
-
-  ## Authors and Acknowledgments
-  Built by [James Fisher](https://james-fisher-web-developer.herokuapp.com/).
-
----
-
-  ### Contact Information:
-    *GitHub Username: jfisher396
-    *GitHub Email: jfisher396@hotmail.com
+## Contact Information:
+* GitHub Username: jfisher396
+* Email: james@james-fisher-web-developer.com
+* <p>
+    <a href="https://www.linkedin.com/in/jamesfisher-webdev/"><img alt="Linkedin: James Fisher" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" /></a>
+    </p>
   

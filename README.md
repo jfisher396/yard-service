@@ -2,13 +2,14 @@
   
 # Lawn and Yard Services
 
-A responsive website for a generic landscaping firm built using an existing framework, my focus was on design and user experience (UX).
+A responsive website for a generic landscaping firm built using an existing framework, my focus was on design and user experience (UX) and content creation.
 
 <p>
     <img src="https://img.shields.io/badge/-HTML-red" />
     <img src="https://img.shields.io/badge/-CSS-lightgrey" />
     <img src="https://img.shields.io/badge/-UX-blue" />
     <img src="https://img.shields.io/badge/-Web Design-blueviolet" />
+    <img src="https://img.shields.io/badge/-Content-orange" />
 </p>
 
 
